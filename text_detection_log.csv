@@ -1,0 +1,308 @@
+timestamp,detected_text,target_found
+2025-09-03T23:13:02.700889,=> wr. a a,False
+2025-09-03T23:13:03.755845,=,False
+2025-09-03T23:13:04.569791,"2, il '\ gwar",False
+2025-09-03T23:13:05.514563,oo We  S,False
+2025-09-03T23:13:06.310189,-_ — Y,False
+2025-09-03T23:13:07.073835,la,False
+2025-09-03T23:13:08.128099,". , —— , — De ee Y x",False
+2025-09-03T23:13:09.118794,~_ ox: . SS,False
+2025-09-03T23:13:10.043627,a — Nii ‘NY eS 2 ( i o * :,False
+2025-09-03T23:13:10.802590,i —_ ) — . Awe = y y,False
+2025-09-03T23:13:11.816547,eat,False
+2025-09-03T23:13:13.016329,eet a,False
+2025-09-03T23:13:13.760546,,False
+2025-09-03T23:13:14.642651,-_ oN ee,False
+2025-09-03T23:13:15.520367,avs aN AIS,False
+2025-09-03T23:13:16.300049,ae SS,False
+2025-09-03T23:13:16.982772,BB joo,False
+2025-09-03T23:13:17.904398,| = NS PARAS,False
+2025-09-03T23:13:18.547576,,False
+2025-09-03T23:13:19.265563,,False
+2025-09-03T23:13:19.914324,,False
+2025-09-03T23:13:20.733734,WN,False
+2025-09-03T23:13:21.452860,p > ; = « . 4 I v - 5,False
+2025-09-03T23:13:22.291914,"4 Y, ~~ va A¥ ~~ & = |e | “at = . = te — ee me, sS om ei) =n. ae",False
+2025-09-03T23:13:23.582422,SS BARAT EIN oe ! : ar 4 . [ef] | BEA ~ ¥ p - a as = Pd =| awe Os,False
+2025-09-03T23:13:24.933931,"= a . : si . SEALED ES BEES ED ES? . SS] Reo Se = fof /~<S os Pe ee et k= Bh] or \ dete. ge"" > : sty. j= Pars = q & < > *: 4 So a Eom t= Ease I a NVI | : SF — SY aa SYS Se D245 + % =",False
+2025-09-03T23:13:26.161561,RSA BA FA DAES EERE aig; fp] es ~ al a Ale Cea 5 wa > oe s 4 Es = I OS BA as \ Ee a | oe / fet \ NOR = 4 p< |] R\ ! 3 a S / i a nei 1 Si >a: & ~— »& .,False
+2025-09-03T23:13:27.273010,a -  — os BBL BA 2 5 SS EES EE = : ae P z TS} I wa AS Sa : res > | Te eS eer a | et ISI | | 22S | w \f | S,False
+2025-09-03T23:13:28.801281,"~ N Y, ¥ J wo Pa ADA BA PA PA EH ED E . AS BAALATTNSISININIEARINSININNSSS SS See =] Ae SS Se - a | ey par - ~ a: a. . oe fe] || RTS oq \ EO ONT aaa, fF Se a we FA Sye ps ? Sy : 445] fe eS — eS 3 ) =e Ss] P< > ; a ae > yee ou ww 7) a ~ |  * ng 1 Si ew -",False
+2025-09-03T23:13:30.405232,"a] : = ‘A ~ ~ : aA 2 ae s A BA BR ee BB Eo Be Vs | | <2 PAAR te a= Se ‘ fo = fe at fs} ||) a TS ae VS. aad = ieee >< z = ¥ >a “ iy, {> es mFS z ES * zs i >! . ¢ = | ate 7 2 y \ eS ane pain",False
+2025-09-03T23:13:32.005263,"=! fi LN ate SSS ——— —— = ————— a £4 2 a G6 2... ed 0 0A 09, WASNT es es Ss] pe = TS] | See oe Soe 2 ES, ~ et fe] || 72 Cg as wa a aig = My ~ Se — = im — ~ ae SI = a IS as NG 7 ) Sas > [>] | | £2 Say \ 22 SFE SD —] Se »D« co = ee TSI ee OK > E a = Mt ISS} | | 22a TG ‘eQq as ge Li - >a? = ”",False
+2025-09-03T23:13:33.290370,"EG . 2 N, Yq ¥ ve r su v LSA SA Ee -o 3.4. slp {AAO Tye BS A eB I ee S Ss] Peo on Cag ¥ engl =k - >« — ie po 4 =. . oT 2 eo Ns tee SS] |) BA ecw \ Ae Sa y) : se f—] | ay wy) —< ig . IS] Ne .— a",False
+2025-09-03T23:13:34.671264,i a [EGE IGEG es: Savas j eee : * —— pe >= = a a | _ — a ee a —<. : md I>] |. BATS eg \ > as a oe b> & : ef “ > I.\ I = we AS pee & wa fe,False
+2025-09-03T23:13:35.993871,"ys A BL Bc Le ee Bo, Eo pe FS} | SS eer - 5 ai FS] PX > ye > pe a. , : ¥ & & < > | i se Ah RAMI wR a LE | eS ai = E ca 7 \ he | se TS] | | 22k | cy . ae: | . >. « Aaa = ss J",False
+2025-09-03T23:13:37.746136,"an! oe E E ee ‘ @ (EEA EL EO EE 8 SS | ae ee a n met fs} || HATE ay \R rx 5 a al mK 3 é ~~ Sica me set SS] PM oo —e . — >a 7 > ——. ef {4 | >: or se 5 Re > [I me, “ay aT “FS SS < —?) Se >« a ge : ee =] | a wn es » ae =~ on ! ia > | 7 € —I \ = KAS Pet Ns “ it I’ pw 2 4 =",False
+2025-09-03T23:13:38.986036,": ae f 4 = SS PAB SS Se oa at oe aa nv ee [SS] ‘om pa =o at wv. es ~ ai [SS] P< > ain eH = FS) || BA 7. wee \ BS <~y ef] PM > aa ig a Sl |, Ko TR Oe | BANS Weds",False
+2025-09-03T23:13:40.368092,al / 4 » 5 A BA BL Le ee OE ES TS] | Fs ae wr = a> = A Es. ‘ 3 “ » F pe > al ES pe ~~ Le Sie > = Ps ees : 7 » =. sd FS] || kT egy \E | eee \ —ppl LT Wie paw F amare,False
+2025-09-03T23:13:41.214615,"erg tae Some: * sy = 9 2 — oe te te i : > i al a VL a ¢ i a ,",False
+2025-09-03T23:13:42.227341,|,False
+2025-09-03T23:13:43.185362,"~~ = — i i— oe — = is <, 7 S Pe : aa a ea a eae ai : aoe & a",False
+2025-09-03T23:13:43.995659,es ~ ~,False
+2025-09-03T23:13:44.683465,=,False
+2025-09-03T23:13:45.398971,aa ee): q ip 4 _ 7 a - y a ae ec Se ee ae |,False
+2025-09-03T23:13:46.125227,"a é 4 t ; = - i ee ee = eo ee ee "" * oa te",False
+2025-09-03T23:13:46.788639,» E t 4 ‘ y q,False
+2025-09-03T23:13:47.474806,aoe ws = 2,False
+2025-09-03T23:13:48.168938,: a,False
+2025-09-03T23:13:48.868708,' | F ksi,False
+2025-09-03T23:13:49.810530,,False
+2025-09-03T23:13:50.691227,S|,False
+2025-09-03T23:13:51.368878,-,False
+2025-09-03T23:13:52.214628,- | |,False
+2025-09-03T23:13:53.285252,s |,False
+2025-09-03T23:13:53.879773,ae,False
+2025-09-03T23:13:54.766719,2 |,False
+2025-09-03T23:13:55.668480,s |,False
+2025-09-03T23:13:56.679869,Sf |,False
+2025-09-03T23:13:57.639953,ae -& | s > oi,False
+2025-09-03T23:13:58.654406,ss |,False
+2025-09-03T23:13:59.565082,—,False
+2025-09-03T23:14:00.200384,,False
+2025-09-03T23:14:00.848988,,False
+2025-09-03T23:14:01.412722,- 7,False
+2025-09-03T23:14:02.067039,¢ | ; fi x4,False
+2025-09-03T23:14:02.782603,a 7 “ais 4 .,False
+2025-09-03T23:14:03.590891,a | é _~,False
+2025-09-03T23:14:04.374914,ae — ao ae a = 5) ze in : . = : -*,False
+2025-09-03T23:14:05.074580,3 <a F 4,False
+2025-09-03T23:14:05.759471,x a ?,False
+2025-09-03T23:14:06.357537,,False
+2025-09-03T23:14:07.253501,es |,False
+2025-09-03T23:14:07.939770,= & ow * .,False
+2025-09-03T23:14:08.847300,2 |,False
+2025-09-03T23:14:09.873343,,False
+2025-09-03T23:14:10.975357,fe |,False
+2025-09-03T23:14:11.906743,|,False
+2025-09-03T23:14:12.837422,se |,False
+2025-09-03T23:14:13.710534,s Li x: LZ,False
+2025-09-03T23:14:14.387940,| —_ | % | ee,False
+2025-09-03T23:14:15.041742,,False
+2025-09-03T23:14:15.802325,ee — == —— > ‘s,False
+2025-09-03T23:14:16.735650,“Si eg >. ane Sa a - a =,False
+2025-09-03T23:14:17.609451,oo = ‘ a a” = ht ag pec Ucar =,False
+2025-09-03T23:14:18.583147,— —_ “ — ja ea oe ae q |,False
+2025-09-03T23:14:19.628593,"a —_— a, be a = aa | + “3 | EF a: o® : * ese } Omg te ts",False
+2025-09-03T23:14:20.329716,E | _ 2 4 . a: | at ee,False
+2025-09-03T23:14:21.248339,a a is ss ae y i _ £ . xs ie 4 —- | a zi “a 4,False
+2025-09-03T23:14:21.974319,"= - 7 —- Se t , oes , - | a eee",False
+2025-09-03T23:14:22.654709,|,False
+2025-09-03T23:14:23.493510,_ = : : eas ) ~-. j *,False
+2025-09-03T23:14:24.099205,|,False
+2025-09-03T23:14:24.740267,,False
+2025-09-03T23:14:25.642449,<a ——- 5 : -™ — bo ws oe : sh re —,False
+2025-09-03T23:14:26.376360,a i a | —- ‘y = : po = F aie,False
+2025-09-03T23:14:27.164228,ated ‘Ye — j ae eae,False
+2025-09-03T23:14:27.869458,es = = | : Be — pas ee a ’,False
+2025-09-03T23:14:28.435640,,False
+2025-09-03T23:14:29.763166,"a + r in ; ene, begs ee * Be",False
+2025-09-03T23:14:30.649423,|,False
+2025-09-03T23:14:31.497693,y i : 5 ee roe i= © wig Se \,False
+2025-09-03T23:14:32.156041,ry —_ — y 7 “< “,False
+2025-09-03T23:14:32.839954,ec © a a aa as - a =,False
+2025-09-03T23:14:34.282200,=,False
+2025-09-03T23:14:35.114100,a j ae ae a 2,False
+2025-09-03T23:14:36.155396,ee a ae . |,False
+2025-09-03T23:14:36.913483,res.” HELLO ge,True
+2025-09-03T23:14:41.186914,x: 4,False
+2025-09-03T23:14:41.991103,ee ech,False
+2025-09-03T23:14:42.874739,> a te ae 5 oe z = =,False
+2025-09-03T23:14:43.543269,a se %: Qe Ree ae -3 ~ / a1,False
+2025-09-03T23:14:44.409810,ee eee bd + ; FJ a ie | wa,False
+2025-09-03T23:14:45.217780,qi Se a Se ee Se HE CL ace a = sf 1 ‘aie,False
+2025-09-03T23:14:45.976784,1: Leo < See :,False
+2025-09-03T23:14:46.886389,Sag: ea eee ete i oa = x ss Ee ie HELLO pot aee: ” |,True
+2025-09-03T23:14:48.179652,‘,False
+2025-09-03T23:14:48.863393,HELLO eee.,True
+2025-09-03T23:14:49.583055,HELLO .,True
+2025-09-03T23:14:50.223158,,False
+2025-09-03T23:14:51.137883,we LEO x -. ig. se ee) :,False
+2025-09-03T23:14:51.896331,", .",False
+2025-09-03T23:14:52.674169,.,False
+2025-09-03T23:14:53.390141,HELLO i,True
+2025-09-03T23:14:54.797957,. |,False
+2025-09-03T23:14:55.524545,: .,False
+2025-09-03T23:14:56.350280,.,False
+2025-09-03T23:14:57.485252,[: >,False
+2025-09-03T23:14:58.201251,a - | fa,False
+2025-09-03T23:14:58.972745,,False
+2025-09-03T23:14:59.902708,ofa |,False
+2025-09-03T23:15:00.891032,ee | |,False
+2025-09-03T23:15:01.796398,fe |,False
+2025-09-03T23:15:02.878805,fe |,False
+2025-09-03T23:15:03.905026,eo |,False
+2025-09-03T23:15:04.934475,se |,False
+2025-09-03T23:15:05.982211,se |,False
+2025-09-03T23:15:06.858830,_s |,False
+2025-09-03T23:15:07.980112,2 |,False
+2025-09-03T23:15:08.925121,", os ig oe Ss. % * ;",False
+2025-09-03T23:15:09.680209,j |,False
+2025-09-03T23:15:10.745363,.,False
+2025-09-03T23:15:11.400594,,False
+2025-09-03T23:15:12.331920,ahs ee,False
+2025-09-03T23:15:13.044104,_— t { HL LE6 | ~N | oe = a i,False
+2025-09-03T23:15:13.757591,,False
+2025-09-03T23:15:14.846266,-_ OJISH,False
+2025-09-03T23:15:15.521042,BWELSO ~*~,False
+2025-09-03T23:15:16.262103,WE LL Le),False
+2025-09-03T23:15:16.954529,HE LL O HELLO,True
+2025-09-03T23:15:18.649403,", HELLO es",True
+2025-09-03T23:15:19.520461,OJSSH,False
+2025-09-03T23:15:20.134853,QWISH,False
+2025-09-03T23:15:20.933765,,False
+2025-09-03T23:15:21.885200,HELLO et,True
+2025-09-03T23:15:22.800964,+S,False
+2025-09-03T23:15:23.787585,eee ae ee ee 23s See F a fe ae a ay — E,False
+2025-09-03T23:15:24.716049,— a He FEL ms —— Ss S a ha tell he th. MJ $n Jj,False
+2025-09-03T23:15:25.414245,HELLS |,False
+2025-09-03T23:15:26.113955,HELLO = },True
+2025-09-03T23:15:27.394796,} | { \ J \ 1 1 + UU. io — > { { eS oe,False
+2025-09-03T23:15:28.194118,+? > i a FF eee fe : % a s .- * 4,False
+2025-09-03T23:15:28.940914,: “~ | f b,False
+2025-09-03T23:15:29.618154,Gr eee <9 \ imc 3 an | foe,False
+2025-09-03T23:15:30.463250,HELLO,True
+2025-09-03T23:15:31.260759,"——s | , \ A —— a a oe ~ >»",False
+2025-09-03T23:15:32.104839,ee o “ at = = : \ : \ ™ \ > a 7 ¥ Po ae ge ae! I~ +\ 7,False
+2025-09-03T23:15:32.912572,"p< 4 . "" q ns, a Po 2 i Pe ee ~9~. = a ' r aa s",False
+2025-09-03T23:15:33.570647,* g >> ee in,False
+2025-09-03T23:15:34.639625,wf |,False
+2025-09-03T23:15:35.599213,£ |,False
+2025-09-03T23:15:36.618898,SS |,False
+2025-09-03T23:15:37.706393,LS |,False
+2025-09-03T23:15:38.715788,,False
+2025-09-03T23:15:40.292847,S|,False
+2025-09-03T23:15:40.951542,,False
+2025-09-03T23:15:41.658764,,False
+2025-09-03T23:15:42.638008,£. |,False
+2025-09-03T23:15:43.509996,£ |,False
+2025-09-03T23:15:44.210576,* ;,False
+2025-09-03T23:15:45.092975,£. |,False
+2025-09-03T23:15:46.015529,£. |,False
+2025-09-03T23:15:46.846898,£ |,False
+2025-09-03T23:15:47.587748,>>s | Be },False
+2025-09-03T23:15:48.189598,,False
+2025-09-03T23:15:49.023054,S|,False
+2025-09-03T23:15:49.898585,2S |,False
+2025-09-03T23:15:50.796103,Ss |,False
+2025-09-03T23:15:51.733273,Ss |,False
+2025-09-03T23:15:52.395186,q rT a,False
+2025-09-03T23:15:53.231104,S|,False
+2025-09-03T23:15:54.425835,£ |,False
+2025-09-03T23:15:55.018520,|,False
+2025-09-03T23:15:55.687153,=. A +. = ze =,False
+2025-09-03T23:15:56.800537,S|,False
+2025-09-03T23:15:57.725081,f |,False
+2025-09-03T23:15:58.673880,L |,False
+2025-09-03T23:15:59.650726,L |,False
+2025-09-03T23:16:00.754973,f |,False
+2025-09-03T23:16:01.969077,£ |,False
+2025-09-03T23:19:34.799585,S|,False
+2025-09-03T23:19:36.087327,Ss |,False
+2025-09-03T23:19:37.085698,cae . am | ~ } 4,False
+2025-09-03T23:19:37.832157,f ' . a a r],False
+2025-09-03T23:19:38.671212,Ss — ' ; foe 4 } an = |,False
+2025-09-03T23:19:39.600209,‘jd,False
+2025-09-03T23:19:40.223309,= 4 — ] z y Fa ;,False
+2025-09-03T23:19:40.790959,+ : ‘ - —,False
+2025-09-03T23:19:41.664400,HELLO — > 2 — ‘ ‘aa : ‘ =a 4 j,True
+2025-09-03T23:19:45.542461,,False
+2025-09-03T23:19:46.144531,QJISN,False
+2025-09-03T23:19:46.933206,= ‘ ; ; 7 P ‘ Ss ee INI WIJ IY Bj,False
+2025-09-03T23:19:47.622987,,False
+2025-09-03T23:19:48.223814,,False
+2025-09-03T23:19:48.999397,ee OWAY,False
+2025-09-03T23:19:49.768102,Ri 1 its 9 ’,False
+2025-09-03T23:19:50.514809,ei clige,False
+2025-09-03T23:19:51.400173,"ida ac, ; q",False
+2025-09-03T23:19:52.143383,KAAS M ‘ |,False
+2025-09-03T23:19:53.106586,\,False
+2025-09-03T23:19:53.864768,Ss ‘ m =,False
+2025-09-03T23:19:54.600586,HELCLOG - | Fai 2 ee | ae \,False
+2025-09-03T23:19:55.302308,— ri . uw  <— _ _ —<— a *,False
+2025-09-03T23:19:56.006786,ees PRE uo = = . —— Ps ns,False
+2025-09-03T23:19:56.814965,= Te LL ONS,False
+2025-09-03T23:19:57.582486,ti ce “_ oe = “a == bas ae . : o-,False
+2025-09-03T23:19:58.370879,as ee ee ee ae yy - eee ‘s Ds 4 a © ba ~~ aes ~ oe,False
+2025-09-03T23:19:59.042756,HE LEO,False
+2025-09-03T23:19:59.996218,a Bei se oR een ar - ee ; gs as é Cee ae . ' somata a OS “33 Ba OIL “9 at “Su,False
+2025-09-03T23:20:00.946570,; - eee Rew as — a ae ee ae war. ee ne > se a a. “Sa ag a.,False
+2025-09-03T23:20:01.989854,$k oe ee : Se eee Pa ew eae iy ch = “a = —* - an . ot ay + a ft ’ + . = 2 P rs. oa th » ag,False
+2025-09-03T23:20:03.082590,"a Figs pet _ eee eee ER eee ee oS 5 oS Oe See ,) ee vt ‘ "" *4s See c == a",False
+2025-09-03T23:20:04.326058,"sf: Rar ‘S z Py anal bina aoe = = sor . e - oe ae HE * Lo '; ae ‘ arcs. ese i ee | zi ao, * re < | ONY 2",False
+2025-09-03T23:20:05.247939,ee,False
+2025-09-03T23:20:06.390231,"< “See e Ra, ae X J",False
+2025-09-03T23:20:07.526449,ae ™ ~ae - er te ee ee oS — HELE Gee f ‘ 4 em os 4 i,False
+2025-09-03T23:20:08.221127,,False
+2025-09-03T23:20:09.035431,ask.,False
+2025-09-03T23:20:09.723114,= HE CL Ge Se cs,False
+2025-09-03T23:20:10.457976,HE COG i 4 a. ig,False
+2025-09-03T23:20:11.240647,We LES i eres HELO x \ } \ a ; at o 2 bags 3,False
+2025-09-03T23:20:11.878343,HELLO,True
+2025-09-03T23:20:13.582460,HELLS [{) ee ae a,False
+2025-09-03T23:20:14.373731,"HELLO t+ | , oo | | < eee 7",True
+2025-09-03T23:20:15.253403,We LES j jae | \ ' Hes bie: L ee a ” Ns ; ee:,False
+2025-09-03T23:20:15.956285,he LISS,False
+2025-09-03T23:20:16.750112,"ae, € t. o 2 — pee _&",False
+2025-09-03T23:20:17.602315,"ie ""I :",False
+2025-09-03T23:20:18.490133,£. |,False
+2025-09-03T23:20:19.212174,se P a. ~,False
+2025-09-03T23:20:20.094653,"| a i i Fe - < * , P “ Sa - % =",False
+2025-09-03T23:20:21.400498,S|,False
+2025-09-03T23:20:22.518076,2,False
+2025-09-03T23:20:23.736896,2 |,False
+2025-09-03T23:20:24.988865,2 |,False
+2025-09-03T23:20:26.208419,2. |,False
+2025-09-03T23:20:27.514604,j e : ' ‘| ° “ 2 ¢ - ; & i = *,False
+2025-09-03T23:20:28.919374,s |,False
+2025-09-03T23:20:30.475769,_@ |,False
+2025-09-03T23:20:31.927782,q - 2 |,False
+2025-09-03T23:20:33.447132,rr.,False
+2025-09-03T23:20:35.189553,7 % | *,False
+2025-09-03T23:20:36.900194,re],False
+2025-09-03T23:20:38.301943,. — —a - _ z so * Ps F 4 ra a |,False
+2025-09-03T23:20:39.513181,‘ a = oe “ — 1 x Pr),False
+2025-09-03T23:20:40.378529,» £ . a -,False
+2025-09-03T23:20:41.526449,s |,False
+2025-09-03T23:20:42.634997,S|,False
+2025-09-03T23:20:43.652429,* é anal Es J,False
+2025-09-03T23:20:45.255155,re],False
+2025-09-03T23:20:46.165384,,False
+2025-09-03T23:20:47.427024,re?,False
+2025-09-03T23:20:48.747594,re],False
+2025-09-03T23:20:50.078754,s.|,False
+2025-09-03T23:20:51.525712,re],False
+2025-09-03T23:20:52.713062,re],False
+2025-09-03T23:20:53.707605,ft qj > } *,False
+2025-09-03T23:20:55.219952,s |,False
+2025-09-03T23:20:56.368991,re],False
+2025-09-03T23:20:57.525836,re],False
+2025-09-03T23:20:58.248346,,False
+2025-09-03T23:20:59.282079,ra,False
+2025-09-03T23:21:00.149378,re],False
+2025-09-03T23:21:01.081133,r],False
+2025-09-03T23:21:02.234988,re],False
+2025-09-03T23:21:03.662009,s. |,False
+2025-09-03T23:21:05.490934,|,False
+2025-09-03T23:21:07.241200,se |,False
+2025-09-03T23:21:08.667024,—— ‘ _ : =i a ; = sen ‘,False
+2025-09-03T23:21:09.697943,s |,False
+2025-09-03T23:21:10.987654,S|,False
+2025-09-03T23:21:11.842087,Ps =,False
+2025-09-03T23:21:12.836870,f |,False
+2025-09-03T23:21:13.711117,S|,False
+2025-09-03T23:21:14.787741,S|,False
+2025-09-03T23:21:16.088953,f |,False
+2025-09-03T23:21:16.674037,j,False
+2025-09-03T23:21:17.352408,"a i ee * om Po , ; = ; if fe",False
+2025-09-03T23:21:18.154706,,False
+2025-09-03T23:21:19.264075,S|,False
+2025-09-03T23:21:20.045117,"4 4 4 bj ~‘ - o , «",False
+2025-09-03T23:21:21.167893,Rs. as | = r gee,False
+2025-09-03T23:21:22.386885,,False
+2025-09-03T23:21:23.426074,2 |,False
+2025-09-03T23:21:24.762141,2 |,False
+2025-09-03T23:21:25.774432,f |,False
+2025-09-03T23:21:26.718007,f |,False
+2025-09-03T23:21:27.758328,Sf |,False
+2025-09-03T23:21:28.713060,f |,False
