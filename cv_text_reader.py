@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#python cv_text_reader.py --target "hello" to run the program
 """
 CV Text Reader with Speech Output
 --------------------------------
@@ -168,6 +169,40 @@ class CVTextReader:
         except Exception as e:
             print(f"Error with TTS: {e}")
 
+    def save_screenshot(self, display_frame, boxes, target_word_boxes):
+        """Save the current display frame as a screenshot with all annotations."""
+        # Create a copy of the frame to avoid modifying the original
+        screenshot = display_frame.copy()
+        
+        # Add a semi-transparent overlay for better text visibility
+        overlay = screenshot.copy()
+        cv2.rectangle(overlay, (0, 0), (screenshot.shape[1], 50), (0, 0, 0), -1)
+        cv2.addWeighted(overlay, 0.6, screenshot, 0.4, 0, screenshot)
+        
+        # Add detection header
+        cv2.putText(screenshot, f"DETECTED: '{self.target_word.upper()}'", 
+                   (20, 35), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+        
+        # Highlight all target word boxes in red
+        for (x1, y1, x2, y2, text) in target_word_boxes:
+            # Draw a red rectangle around the target word
+            cv2.rectangle(screenshot, (x1-5, y1-5), (x2+5, y2+5), (0, 0, 255), 2)
+            # Add a label above the box
+            cv2.putText(screenshot, f"'{text}' found!", 
+                       (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        
+        # Add timestamp at the bottom
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        cv2.putText(screenshot, f"Detected at: {timestamp}", 
+                   (20, screenshot.shape[0] - 20), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
+        
+        # Save the enhanced screenshot
+        filename = f'detected_{self.target_word}_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
+        cv2.imwrite(filename, screenshot)
+        print(f"\nScreenshot saved as: {filename}")
+        return filename
+
     def run(self):
         """Run the main application loop."""
         # Initialize video capture
@@ -179,6 +214,7 @@ class CVTextReader:
         
         last_spoken = ""
         last_alert_time = 0
+        target_detected = False
         
         try:
             while True:
@@ -201,6 +237,51 @@ class CVTextReader:
                 
                 # Log the detection
                 self.log_detection(detected_text, target_found)
+                
+                # If target found and not already detected
+                if target_found and not target_detected:
+                    target_detected = True
+                    # Get all boxes that contain the target word
+                    target_boxes = [box for box in boxes if self.check_target_word(box[4])]
+                    
+                    # Save the screenshot with enhanced annotations
+                    screenshot_path = self.save_screenshot(display_frame, boxes, target_boxes)
+                    print(f"Target word '{self.target_word}' detected! Screenshot saved as {screenshot_path}")
+                    self.speak(f"Found {self.target_word}! Screenshot saved.")
+                    
+                    # Create a final display frame with larger text for visibility
+                    final_display = display_frame.copy()
+                    h, w = final_display.shape[:2]
+                    
+                    # Add a semi-transparent overlay
+                    overlay = final_display.copy()
+                    cv2.rectangle(overlay, (0, 0), (w, h), (0, 0, 0), -1)
+                    cv2.addWeighted(overlay, 0.7, final_display, 0.3, 0, final_display)
+                    
+                    # Add large detection text
+                    text = f"DETECTED: '{self.target_word.upper()}'"
+                    text_size = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, 2, 4)[0]
+                    text_x = (w - text_size[0]) // 2
+                    text_y = (h + text_size[1]) // 2
+                    
+                    cv2.putText(final_display, text, 
+                               (text_x, text_y), 
+                               cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 4, cv2.LINE_AA)
+                    
+                    # Show the final frame with detection for 3 seconds
+                    cv2.imshow('CV Text Reader', final_display)
+                    cv2.waitKey(3000)
+                    
+                    # Release the camera and close all windows
+                    cap.release()
+                    cv2.destroyAllWindows()
+                    return  # Exit the run method
+                    
+                    # Draw a big green border around the frame
+                    cv2.rectangle(display_frame, (10, 10), (frame.shape[1]-10, frame.shape[0]-10), (0, 255, 0), 20)
+                    cv2.putText(display_frame, f"FOUND: {self.target_word.upper()}", 
+                               (frame.shape[1]//4, frame.shape[0]//2), 
+                               cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 4, cv2.LINE_AA)
                 
                 # Draw bounding boxes and highlight target word
                 for (x1, y1, x2, y2, text) in boxes:
@@ -231,11 +312,11 @@ class CVTextReader:
                     self.speak(f"Target word {self.target_word} found!")
                     last_alert_time = current_time
                 
-                # Display the resulting frame
+                # Show the frame
                 cv2.imshow('CV Text Reader', display_frame)
                 
-                # Break the loop on 'q' key press
-                if cv2.waitKey(1) & 0xFF == ord('q'):
+                # Exit on 'q' key press or if target was detected
+                if cv2.waitKey(1) & 0xFF == ord('q') or target_detected:
                     break
                 
         finally:
